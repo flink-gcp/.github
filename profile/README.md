@@ -1,7 +1,7 @@
 # GCP Connectors for Apache Flink
 
 We develop independent open-source connectors for using Google Cloud services with Apache Flink.
-Our main project, [flink-connector-gcp](https://github.com/flink-gcp/flink-connector-gcp), connects Flink jobs to BigQuery, Cloud Pub/Sub, Cloud Tasks, Bigtable, and Spanner through DataStream and Table/SQL APIs.
+Our main project, [flink-connector-gcp](https://github.com/flink-gcp/flink-connector-gcp), connects Flink jobs to BigQuery, Cloud Pub/Sub, Cloud Tasks, Bigtable, Spanner, and Firestore (Native and Datastore modes) through DataStream and Table/SQL APIs.
 
 ## Get started
 
@@ -12,7 +12,8 @@ Our main project, [flink-connector-gcp](https://github.com/flink-gcp/flink-conne
 
 ## Blog series
 
-This series introduces the project and its five connectors as they were released in 1.0.0.
+The series began with the project introduction and the five connectors available in 1.0.0.
+Firestore support was added in 1.2.0; the [Firestore guide](https://flink-gcp.github.io/flink-connector-gcp/1.2/docs/connectors/datastream/firestore/) covers both Native and Datastore modes.
 For current setup instructions and supported behavior, use the documentation linked above.
 
 - [Release introduction](https://blog.laughingman7743.org/posts/flink-connector-gcp-1-0-0/)
@@ -21,6 +22,7 @@ For current setup instructions and supported behavior, use the documentation lin
 - [Spanner](https://blog.laughingman7743.org/posts/flink-connector-gcp-spanner/)
 - [Bigtable](https://blog.laughingman7743.org/posts/flink-connector-gcp-bigtable/)
 - [Cloud Tasks](https://blog.laughingman7743.org/posts/flink-connector-gcp-cloud-tasks/)
+- [Firestore](https://blog.laughingman7743.org/posts/flink-connector-gcp-firestore/)
 
 ## Related projects
 
