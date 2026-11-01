@@ -28,7 +28,7 @@ For current setup instructions and supported behavior, use the documentation lin
 
 | Project | Purpose |
 | --- | --- |
-| [flink-datastream-protobuf](https://github.com/flink-gcp/flink-datastream-protobuf) | Native Protocol Buffers type integration for the Flink DataStream API. Under development; no release is available yet. |
+| [flink-datastream-protobuf](https://github.com/flink-gcp/flink-datastream-protobuf) | Native Protocol Buffers type integration for the Flink DataStream API, for Flink 2.x and 1.20 LTS, published to Maven Central from 1.0.0. See the [documentation](https://flink-gcp.github.io/flink-datastream-protobuf/). |
 | [flink-gcp-dev-tools](https://github.com/flink-gcp/flink-gcp-dev-tools) | Shared development workflows, a pull request template, and documentation design assets for flink-gcp projects. |
 
 ## About the project
